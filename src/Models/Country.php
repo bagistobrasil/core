@@ -4,7 +4,7 @@ namespace Webkul\Core\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Locale extends Model
+class Country extends Model
 {
     /**
      * The attributes that are mass assignable.

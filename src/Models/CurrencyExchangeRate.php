@@ -4,7 +4,7 @@ namespace Webkul\Core\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Locale extends Model
+class CurrencyExchangeRate extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -12,6 +12,6 @@ class Locale extends Model
      * @var array
      */
     protected $fillable = [
-        'code', 'name'
+        'source_currency', 'target_currency', 'ratio'
     ];
 }
